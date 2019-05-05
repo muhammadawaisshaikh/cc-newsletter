@@ -32,7 +32,7 @@
   .top-center{position: absolute; top: 50%; transform: translate(0%, -50%);}
   header img{ width: 40%; }
   .initiatives .content h4{padding: 0 0 0 7%;}
-  @media only screen and(max-width: 600px){
+  @media screen and (max-width: 600px) {
     header img{
       width: 100%;
     }
@@ -41,8 +41,15 @@
       position: relative;
       display: block;
       margin: auto;
+      box-shadow: none;
     }
-    .initiatives .content h4{padding: 0 0 0 0;}
+    .initiatives .content h4{padding: 20px 0 0 0;}
+    .initiatives img{width: 100%;}
+    .qAnda .content{padding: 20px 0 0 0;}
+    .top-center{top: 0; transform: translate(0, 0);}
+    .news .content {padding: 20px 0 0 0;}
+     header h1{font-size: 25px;}
+    .slide .content h1{font-size: 25px;}
   }
  </style>
 
@@ -160,7 +167,7 @@
     </div>
   </div>
 
-  <div class="initiatives relative">
+  <div class="qAndA relative">
     <div class="container">
       <div class="sec-head">Q&A with Imran Ali</div>
       <img class="associateQAndA" src="https://i.ibb.co/9q00Bsc/image.png" />
